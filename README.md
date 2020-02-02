@@ -4,7 +4,7 @@ A schema for specifying an index of audio sample files in generative music proje
 
 ## Schema
 
-The schema is defined in [schema.json](schema.json]).
+The schema is defined in [schema.json](schema.json).
 
 This schema describes an object whose properties are groups of audio samples with a group name as the property key and either an array or an object containing the audio samples as the property value. An audio sample is typically a string containing a path to the file.
 
