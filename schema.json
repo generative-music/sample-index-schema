@@ -1,0 +1,16 @@
+{
+  "$id": "http://alexbainter.com/schemas/@generative-music/dependency-schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "patternProperties": {
+    "^.*$": {
+      "anyOf": [
+        {
+          "type": "object",
+          "patternProperties": { "^.*$": { "type": "string" } }
+        },
+        { "type": "array", "items": { "type": "string" } }
+      ]
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,27 @@
+{
+  "name": "@generative-music/sample-index-schema",
+  "version": "1.0.0",
+  "description": "A schema for specifying an index of audio sample files in generative music projects",
+  "main": "schema.json",
+  "files": [],
+  "scripts": {
+    "test": "mocha ./test.js",
+    "preversion": "npm test",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/generative-music/dependency-schema.git"
+  },
+  "author": "Alex Bainter <alex@alexbainter.com> (https://alexbainter.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/generative-music/dependency-schema/issues"
+  },
+  "homepage": "https://github.com/generative-music/dependency-schema#readme",
+  "devDependencies": {
+    "ajv": "^6.11.0",
+    "chai": "^4.2.0",
+    "mocha": "^7.0.1"
+  }
+}
